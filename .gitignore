@@ -1,0 +1,10 @@
+./MoviesBackend/env
+MoviesBackend/env
+./MoviesFrontend/node_modules
+MoviesFrontend/node_modules
+._*
+*.pyc
+.~lock.*
+.idea
+MoviesBackend/.idea
+MoviesFrontend/.idea

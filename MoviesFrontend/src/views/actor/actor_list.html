@@ -1,0 +1,55 @@
+<button class="btn btn-secondary pull-right">Dodaj</button>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nazwa filmu</th>
+        <th scope="col">Gatunek</th>
+        <th scope="col">Ustawienia</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="actor in ActorsList">
+        <th scope="row">{{ $index + 1 }}</th>
+        <td>{{actor.name}}</td>
+        <td></td>
+        <td>
+            <button class="btn btn-primary btn-sm">Edycja</button>
+            <button class="btn btn-danger btn-sm">Usuń</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!--<div>-->
+<!--    <nav aria-label="Page navigation">-->
+<!--        <ul class="pagination">-->
+<!--            <li>-->
+<!--                <a href="#" aria-label="Previous">-->
+<!--                    <span aria-hidden="true">&laquo;</span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li><a href="#">1</a></li>-->
+<!--            <li><a href="#">2</a></li>-->
+<!--            <li><a href="#">3</a></li>-->
+<!--            <li><a href="#">4</a></li>-->
+<!--            <li><a href="#">5</a></li>-->
+<!--            <li>-->
+<!--                <a href="#" aria-label="Next">-->
+<!--                    <span aria-hidden="true">&raquo;</span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+<!--</div>-->
+
+
+<!--&lt;!&ndash; table here &ndash;&gt;-->
+
+<!--<pagination-->
+<!--  ng-model="currentPage"-->
+<!--  total-items="todos.length"-->
+<!--  max-size="maxSize"-->
+<!--  boundary-links="true">-->
+<!--</pagination>-->
+
+<!--&lt;!&ndash; items/page select here if you like &ndash;&gt;-->

@@ -1,0 +1,21 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Tytuł utworu</th>
+      <th scope="col">Wykonawca utworu</th>
+      <th>Ustawienia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="music in MusicList">
+      <th scope="row">{{ $index + 1 }}</th>
+      <td>{{music.title}}</td>
+      <td>{{music.artist}}</td>
+      <td>
+         <button class="btn btn-primary btn-sm">Edycja</button>
+          <button class="btn btn-danger btn-sm">Usuń</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

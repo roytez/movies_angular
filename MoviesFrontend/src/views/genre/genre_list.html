@@ -1,0 +1,23 @@
+<button class="btn btn-secondary pull-right">Dodaj</button>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nazwa gatunku</th>
+      <th scope="col">Lista filmów</th>
+      <th scope="col">Ustawienia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="genre in GenresList">
+      <th scope="row">{{ $index + 1 }}</th>
+      <td>{{genre.name}}</td>
+      <td></td>
+      <td>
+        <button class="btn btn-primary btn-sm">Edycja</button>
+        <button class="btn btn-danger btn-sm">Usuń</button>
+      </td>
+<!--      <td ng-repeat="genre in movie.genres">{{genre.genre_name}}</td>-->
+    </tr>
+  </tbody>
+</table>
