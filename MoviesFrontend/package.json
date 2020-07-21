@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "restangular": "1.6.1",
-    "lodash": "3.11.0",
+    "lodash": "4.17.19",
     "@uirouter/angularjs": "1.0.26"
   },
   "engines": {
